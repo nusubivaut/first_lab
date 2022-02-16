@@ -1,8 +1,13 @@
 #include <stdio.h>
 
 int main(){
+
+/* тут будет код
+*/
 int a, b;
 scanf("%d%d", &a, &b);
-printf("%d\n", a + b);
-return 1;
-} 
+a = a + b;
+printf("%d\n", a);
+return 232;
+}
+
