@@ -1,13 +1,9 @@
 #include <stdio.h>
 
-int main(){
-
-/* тут будет код
-*/
-int a, b;
+int main(void)
+{
+int a, b, c;
 scanf("%d%d", &a, &b);
-a = a + b;
-printf("%d\n", a);
-return 232;
-}
-
+c = a + b;
+printf("%d\n", c);
+return 0;
